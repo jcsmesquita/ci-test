@@ -1,0 +1,33 @@
+{
+  "name": "ci-test",
+  "version": "0.1.0",
+  "description": "Sample project to experiment with using Next.js, CircleCI and docker.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcsmesquita/ci-test.git"
+  },
+  "author": "João Mesquita",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcsmesquita/ci-test/issues"
+  },
+  "homepage": "https://github.com/jcsmesquita/ci-test#readme",
+  "dependencies": {
+    "next": "2.0.0-beta.18",
+    "react-addons-test-utils": "^15.4.2"
+  },
+  "devDependencies": {
+    "babel-jest": "^18.0.0",
+    "enzyme": "^2.7.1",
+    "jest-cli": "^18.1.0",
+    "react": "^15.4.2",
+    "react-test-renderer": "^15.4.2"
+  }
+}
